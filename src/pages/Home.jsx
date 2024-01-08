@@ -1,7 +1,7 @@
 
 function Home() {
   return (
-    <div>
+    <div className="w-[100vw] h-[100vh] bg-red-600">
       
     </div>
   )
