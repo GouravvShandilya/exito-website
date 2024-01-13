@@ -28,7 +28,7 @@ function Navbar() {
           </div>
           <div className="w-[15%] h-[100%]  flex items-center justify-center  ">
             {" "}
-            <Link>
+            <Link to="/services">
               <span className="hover:border-b-[3.5px] border-[#FEB550]  hover:transition-all  hover:duration-400 ">
                 Services
               </span>
