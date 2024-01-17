@@ -1,6 +1,20 @@
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png"
 function Footer() {
+
+
+
+  const handleContactUsClick = () => {
+    // Find the target element by its ID or another selector
+    const contactFormElement = document.getElementById('form');
+
+    // Scroll to the target element
+    if (contactFormElement) {
+      contactFormElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+
   return (
     <div className="w-[100vw] md:h-[50vh] h-[20vh] bg-[#00000096] ">
       <div className="w-[100%] h-[80%] ">
@@ -26,22 +40,22 @@ function Footer() {
                 </h1>
               </div>
               <div className="w-[100%] h-[17%]  flex items-center justify-start">
-                <Link className="md:text-[1vw] text-[1.7vw] font-[400] text-white" to="">
+                <Link  className="md:text-[1vw] text-[1.7vw] font-[400] text-white" to="/">
                   Home
                 </Link>
               </div>
               <div className="w-[100%] h-[17%]  flex items-center justify-start">
-                <Link className="md:text-[1vw] text-[1.7vw] font-[400] text-white" to="">
+                <Link className="md:text-[1vw] text-[1.7vw] font-[400] text-white" to="/aboutus">
                   About Us
                 </Link>
               </div>
               <div className="w-[100%] h-[17%] flex items-center justify-start">
-                <Link className="md:text-[1vw] text-[1.7vw] font-[400] text-white" to="">
+                <Link className="md:text-[1vw] text-[1.7vw] font-[400] text-white" to="/services">
                   Services
                 </Link>
               </div>
               <div className="w-[100%] h-[17%]  flex items-center justify-start">
-                <Link className="md:text-[1vw] text-[1.7vw] font-[400] text-white" to="">
+                <Link className="md:text-[1vw] text-[1.7vw] font-[400] text-white" to="/" onClick={handleContactUsClick}>
                   Contact
                 </Link>
               </div>

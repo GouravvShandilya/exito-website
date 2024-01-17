@@ -9,8 +9,13 @@ import homeImg2 from "../assets/homeImg2.png";
 import homeImg3 from "../assets/homeImg3.png";
 import homeImg4 from "../assets/homeImg4.png";
 import homeImg5 from "../assets/homeImg5.png";
+import { useEffect } from "react";
 
 function Home() {
+
+
+
+ 
   return (
     <div className="w-full min-h-[100vh]  ">
       <div className="w-full md:h-[100vh] h-[30vh] bg-[#D7E9F4]">
@@ -456,7 +461,7 @@ function Home() {
             </div>
           </div>
 
-          <div className="w-[50%] h-[100% flex items-center justify-center ">
+          <div id="form" className="w-[50%] h-[100% flex items-center justify-center ">
             <div className="md:w-[90%] md:h-[90%] w-[90%] h-[60%] ">
               <form
                 action=""
