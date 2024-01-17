@@ -7,7 +7,7 @@ import { IoMdCheckmark } from "react-icons/io";
 import homeImg1 from "../assets/homeImg1.png";
 import homeImg2 from "../assets/homeImg2.png";
 import homeImg3 from "../assets/homeImg3.png";
-import homeImg4 from "../assets/homeImg4.png";
+import homeImg4 from "../assets/homeimg4.png";
 import homeImg5 from "../assets/homeImg5.png";
 
 
