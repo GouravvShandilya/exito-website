@@ -17,6 +17,9 @@ function Home() {
 
  
   return (
+
+
+    
     <div className="w-full min-h-[100vh]  ">
       <div className="w-full md:h-[100vh] h-[30vh] bg-[#D7E9F4]">
         <div className="w-[100%] h-[80%] ">
