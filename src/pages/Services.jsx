@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import  { useEffect } from "react";
 import About from "../assets/about.png";
 import Chat from "../assets/chat.png";
 import Frame from "../assets/frame.png";
